@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">noti1</string>
+    <string name="welcome_message">Welcome!</string>
+    <string name="reg_alert">Register Alert</string>
+    <string name="unreg_alert">Unregister Alert</string>
+    <string name="received">Alert received</string>
+    <string name="btn">Button</string>
+    <string name="message">Hello Geeks!! This is a Button.</string>
+</resources>

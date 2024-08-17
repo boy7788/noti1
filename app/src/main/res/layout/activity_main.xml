@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập văn bản ở đây"
+        android:inputType="text"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+
+        android:text="@string/welcome_message"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_alert"
+        android:layout_below="@id/textViewMessage"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/buttonSend2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/received"
+        android:layout_below="@id/buttonSend"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
